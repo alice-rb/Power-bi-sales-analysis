@@ -1,7 +1,4 @@
-# Power BI Sales Analysis - Class Exercise
-
-This repository contains a practical Power BI exercise focused on **sales analysis**. The goal is to practice creating interactive dashboards and understanding key business metrics, such as **Customer Lifetime Value (CLV)** and **Top Profile Users**.
-
+# Power BI Sales Analysis 
 ## Content
 
 - **Top Profile Users**: Segment users by behavior and value (CLV). Identify the top profiles in different markets, such as Europe and the USA.
