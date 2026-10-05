@@ -1,9 +1,52 @@
-# Power BI Sales Analysis 
-## Content
+<div align="center">
 
-- **Top Profile Users**: Segment users by behavior and value (CLV). Identify the top profiles in different markets, such as Europe and the USA.
+# 📊 Sales Performance Analysis
 
-- **Global situation**: Visualize income trends, detect anomalies, and analyze optimal performance depending on season and sales channel.
+### Power BI dashboard to diagnose a revenue decline in a multi-country B2B market
 
-- **Sales diagnosis**: Analyze the causes of declining sales and propose possible solutions.
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge)
+![Data Modeling](https://img.shields.io/badge/Data_Modeling-5C2D91?style=for-the-badge)
 
+</div>
+
+<p align="center">
+  <img src="images/00-preview.gif" alt="Dashboard preview" width="900">
+</p>
+
+---
+
+## 🎯 Business Questions
+
+| # | Question | Focus |
+|:-:|---|---|
+| 1 | **Who is the most profitable customer?** | Age group and market segmentation (Europe vs. North America) using sales, average ticket, order frequency and CLV |
+| 2 | **How do sales behave over time?** | Yearly trend, monthly seasonality and revenue concentration by country and company |
+| 3 | **Why did sales decline in 2023–2024?** | Patterns, anomalies and root causes |
+
+---
+
+## 🔍 Key Findings
+
+> **Revenue fell 2.3% from 2022 to 2023**, mainly due to the disappearance of the sales peaks that drove previous years.
+
+- 🇩🇪 **The decline is concentrated in Germany:** a single company (Ac Fermentum Inc.) accounted for 30%+ of global revenue and dropped 68%.
+- 📈 **Sweden leads in total revenue, but Germany has the highest average sales per company**, the market with the most potential and the biggest dependency risk.
+- 📅 **Seasonality:** September and December are the strongest months; summer and November are consistently weak.
+- 👤 **Most profitable profile (CLV):** 25–35 in the UK and 36–45 in the USA.
+
+---
+
+## 💡 Recommendations
+
+1. **Reduce dependency** on a single key account in Germany by diversifying the customer portfolio.
+2. **Concentrate campaigns** before the September and December peaks.
+3. **Replicate the acquisition strategy** of the top CLV segments in similar markets.
+
+---
+
+## 🖥️ Dashboard
+
+### 1️⃣ Top User Profile
+Who buys more, who spends more and who is worth more in the long term (CLV), by
