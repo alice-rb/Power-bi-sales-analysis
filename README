@@ -1,5 +1,3 @@
-<div align="center">
-
 # 📊 Sales Performance Analysis
 
 ### Power BI dashboard to diagnose a revenue decline in a multi-country B2B market
@@ -9,18 +7,12 @@
 ![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge)
 ![Data Modeling](https://img.shields.io/badge/Data_Modeling-5C2D91?style=for-the-badge)
 
-</div>
-
-<p align="center">
-  <img src="images/00-preview.gif" alt="Dashboard preview" width="900">
-</p>
-
 ---
 
 ## 🎯 Business Questions
 
 | # | Question | Focus |
-|:-:|---|---|
+
 | 1 | **Who is the most profitable customer?** | Age group and market segmentation (Europe vs. North America) using sales, average ticket, order frequency and CLV |
 | 2 | **How do sales behave over time?** | Yearly trend, monthly seasonality and revenue concentration by country and company |
 | 3 | **Why did sales decline in 2023–2024?** | Patterns, anomalies and root causes |
@@ -49,4 +41,40 @@
 ## 🖥️ Dashboard
 
 ### 1️⃣ Top User Profile
-Who buys more, who spends more and who is worth more in the long term (CLV), by
+Who buys more, who spends more and who is worth more in the long term (CLV), by market and age group.
+
+### 2️⃣ Global Trend & Seasonality
+Five-year revenue evolution, monthly seasonality and revenue concentration by country and company.
+
+### 3️⃣ 2023–2024 Decline Diagnosis
+Month-over-month variation, country and company breakdown, and CLV evolution to explain the drop.
+
+---
+
+## 🗂️ Data Model
+
+Star schema with `transactions` as the fact table and `users`, `company`, `products` and a calendar table as dimensions. All measures are stored in a dedicated measures table.
+
+### Key DAX Measures
+
+| Measure | Description |
+
+| `CLV` | Customer Lifetime Value: average spend × annual purchase frequency |
+| `%VarSalesYear` / `%VarSalesMonth` | Year-over-year and month-over-month sales variation |
+| `AvgSalesDay` | Average daily sales, used to compare months fairly |
+| `CR` | Conversion rate by country |
+
+## 📁 Data
+
+Synthetic dataset provided as part of IT Academy Data Analytics course. It contains no real personal data.
+
+---
+
+## ▶️ How to Open
+
+> [!NOTE]
+> The report uses the **PBIR format**.
+
+1. Install the latest version of [Power BI Desktop](https://www.microsoft.com/power-bi/desktop).
+2. If the file does not open, go to **File → Options → Preview features**, enable **"Store reports using enhanced metadata format (PBIR)"** and restart Power BI.
+
