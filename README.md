@@ -64,10 +64,13 @@ Star schema with `transactions` as the fact table and `users`, `company`, `produ
 
 | Measure | Description |
 
-| `CLV` | Customer Lifetime Value: average spend × annual purchase frequency |
-| `%VarSalesYear` / `%VarSalesMonth` | Year-over-year and month-over-month sales variation |
-| `AvgSalesDay` | Average daily sales, used to compare months fairly |
-| `CR` | Conversion rate by country |
+| `CLV` | Customer Lifetime Value: average spend × annual purchase frequency 
+
+| `%VarSalesYear` / `%VarSalesMonth` | Year-over-year and month-over-month sales variation 
+
+| `AvgSalesDay` | Average daily sales, used to compare months fairly 
+
+| `CR` | Conversion rate by country 
 
 ## 📁 Data
 
