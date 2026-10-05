@@ -13,9 +13,11 @@
 
 | # | Question | Focus |
 
-| 1 | **Who is the most profitable customer?** | Age group and market segmentation (Europe vs. North America) using sales, average ticket, order frequency and CLV |
-| 2 | **How do sales behave over time?** | Yearly trend, monthly seasonality and revenue concentration by country and company |
-| 3 | **Why did sales decline in 2023–2024?** | Patterns, anomalies and root causes |
+| 1 | **Who is the most profitable customer?** | Age group and market segmentation (Europe vs. North America) using sales, average ticket, order frequency and CLV 
+
+| 2 | **How do sales behave over time?** | Yearly trend, monthly seasonality and revenue concentration by country and company 
+
+| 3 | **Why did sales decline in 2023–2024?** | Patterns, anomalies and root causes 
 
 ---
 
@@ -24,8 +26,11 @@
 > **Revenue fell 2.3% from 2022 to 2023**, mainly due to the disappearance of the sales peaks that drove previous years.
 
 - 🇩🇪 **The decline is concentrated in Germany:** a single company (Ac Fermentum Inc.) accounted for 30%+ of global revenue and dropped 68%.
+  
 - 📈 **Sweden leads in total revenue, but Germany has the highest average sales per company**, the market with the most potential and the biggest dependency risk.
+  
 - 📅 **Seasonality:** September and December are the strongest months; summer and November are consistently weak.
+  
 - 👤 **Most profitable profile (CLV):** 25–35 in the UK and 36–45 in the USA.
 
 ---
